@@ -6,7 +6,8 @@
   "files": [
     "dist",
     "lib",
-    "src"
+    "src",
+    "css"
   ],
   "style": "dist/style.css",
   "scripts": {
