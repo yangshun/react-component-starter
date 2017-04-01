@@ -1,6 +1,7 @@
 'use strict';
 
 const webpack = require('webpack');
+const pkg = require('./package.json');
 
 const env = process.env.NODE_ENV;
 const config = {
@@ -9,7 +10,7 @@ const config = {
     modules: ['src', 'node_modules'],
   },
   output: {
-    library: 'react-component-starter',
+    library: pkg.name,
     libraryTarget: 'umd',
   },
   module: {

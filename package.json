@@ -44,7 +44,6 @@
     "url": "https://github.com/yangshun/react-component-starter/issues"
   },
   "homepage": "https://github.com/yangshun/react-component-starter",
-  "npmName": "react-component-starter",
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
     "@kadira/storybook-deployer": "^1.2.0",
